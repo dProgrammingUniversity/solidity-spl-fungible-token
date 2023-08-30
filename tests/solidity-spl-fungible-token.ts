@@ -27,7 +27,7 @@ describe("spl-token-minter", () => {
   const tokenTitle = "Solidity SPL Fungible Token";
   const tokenSymbol = "SSPLFT";
   const tokenUri =
-    "https://raw.githubusercontent.com/solana-developers/program-examples/new-examples/tokens/tokens/.assets/spl-token.json";
+    "https://raw.githubusercontent.com/dProgrammingUniversity/solidity-spl-fungible-token/main/spl-token.json";
 
   it("Is initialized!", async () => {
     // Initialize data account for the program, which is required by Solang
